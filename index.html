@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arulsgalery | Nostalgia Snack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container">
+            <div class="logo">Arulsgalery</div>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#testimoni">Komentar</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+                <li><a href="#lokasi">Lokasi</a></li>
+                <li>
+                    <button id="btn-keranjang" class="cart-button" type="button">
+                        Keranjang <span id="jumlah-keranjang">0</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-wrap">
+                <div class="hero-content">
+                    <p class="eyebrow">Jajan jadul favorit</p>
+                    <h1>jajanan yang membawamu bernostalgia dari masa kecil</h1>
+                    <p>Menjual jajanan klasik yang membawa kembali kenangan masa kecil dengan warna, rasa, dan kehangatan yang tak terlupakan.</p>
+                    <div class="hero-actions">
+                        <a class="btn-primary" href="#produk">Lihat Produk</a>
+                        <a class="btn-secondary" href="#kontak">Hubungi Kami</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="img/produk1.jpg" alt="Produk Yosan bubble gum">
+                </div>
+            </div>
+        </section>
+
+        <section id="tentang" class="about">
+            <div class="container about-wrap">
+                <div class="about-image">
+                    <img src="img/logo toko.jpg" alt="Produk jajanan jadul">
+                </div>
+
+                <div class="about-content">
+                    <p class="section-tag">Tentang Kami</p>
+                    <h2>Kenangan manis untuk semua usia</h2>
+                    <p>
+                        Arulsgalery adalah toko yang menghadirkan berbagai jajanan jadul dengan kualitas terbaik. Kami percaya rasa lama yang khas bisa kembali hadir dan membuat setiap momen terasa lebih ceria.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="produk" class="products">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-tag">Produk Kami</p>
+                    <h2> Koleksi favorit pelanggan</h2>
+                </div>
+
+                <div class="product-list">
+                    <article class="product-card">
+                        <span class="product-badge">Populer</span>
+                        <div class="product-image">
+                            <img src="img/produk1.jpg" alt="Yosan Bubble Gum">
+                        </div>
+                        <h3>Yosan Bubble Gum</h3>
+                        <p>Permen karet berwarna ceria dengan rasa manis yang mengingatkan masa kecil.</p>
+                        <div class="product-meta">
+                            <span>Rp14.100</span>
+                            <button class="btn-tambah" type="button" data-nama="Yosan Bubble Gum" data-harga="14100">+</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <span class="product-badge">Populer</span>
+                        <div class="product-image">
+                            <img src="img/produk2.jpg" alt="Smiling Eyeglass">
+                        </div>
+                        <h3>Smiling Eyeglass</h3>
+                        <p>Snack lucu berbentuk kacamata yang berani tampil dengan rasa cokelat dan warna cerah.</p>
+                        <div class="product-meta">
+                            <span>Rp25.000</span>
+                            <button class="btn-tambah" type="button" data-nama="Smiling Eyeglass" data-harga="25000">+</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <span class="product-badge">Populer</span>
+                        <div class="product-image">
+                            <img src="img/produk3.jpg" alt="Hot Hot Pop">
+                        </div>
+                        <h3>Hot Hot Pop</h3>
+                        <p>Permen kaki dengan rasa manis yang bikin nagih dan nostalgic.</p>
+                        <div class="product-meta">
+                            <span>Rp30.000</span>
+                            <button class="btn-tambah" type="button" data-nama="Hot Hot Pop" data-harga="30000">+</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <button id="btn-lihat-lainnya">lihat produk lainnya </button>
+
+        <section id="testimoni" class="testimonials">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-tag">Komentar Pembeli</p>
+                    <h2>Apa kata pelanggan kami</h2>
+                </div>
+
+                <form id="form-testimoni" class="testimonial-form">
+                    <input type="text" id="nama-testimoni" placeholder="Nama Anda" required>
+                    <textarea id="pesan-testimoni" rows="3" placeholder="Tulis komentar Anda" required></textarea>
+                    <button type="submit">Kirim Komentar</button>
+                </form>
+
+                <div class="testimonial-list">
+                    <article class="testimonial-card">
+                        <p>"Rasa jajanan jadulnya masih sama seperti dulu. Packaging-nya juga rapi dan cocok buat oleh-oleh."</p>
+                        <div class="customer-info">
+                            <div class="avatar">S</div>
+                            <div>
+                                <strong>Siti</strong>
+                                <time class="comment-time" datetime="2026-09-12T10:15:00">12 Sep 2026, 10:15</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <p>"Semua produknya unik dan bikin nostalgia. Anak saya suka banget dengan Yosan Bubble Gum dan Hot Hot Pop."</p>
+                        <div class="customer-info">
+                            <div class="avatar">R</div>
+                            <div>
+                                <strong>Rizky</strong>
+                                <time class="comment-time" datetime="2026-09-18T15:40:00">18 Sep 2026, 15:40</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <p>"Pelayannya ramah
+.pekerjaan nya detailing"</p>
+                        <div class="customer-info">
+                            <div class="avatar">D</div>
+                            <div>
+                                <strong>Edie Kusdiana</strong>
+                                <time class="comment-time" datetime="2026-09-25T09:05:00">14 Agustus 2023, 13:05</time>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="contact">
+            <div class="container contact-wrap">
+                <div class="contact-copy">
+                    <p class="section-tag">Kontak</p>
+                    <h2>Siap bantuin cari jajanan favoritmu</h2>
+                    <p>Hubungi kami untuk pemesanan atau pertanyaan lebih lanjut tentang produk nostalgia kami.</p>
+                </div>
+
+                <form id="form-kontak" class="contact-form">
+                    <input type="text" placeholder="Nama" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea rows="5" placeholder="Pesan" required></textarea>
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+        </section>
+        <section id="lokasi" class="location">
+            <div class="container location-wrap">
+                <div class="location-copy">
+                    <p class="section-tag">Lokasi Kami</p>
+
+                    <div class="location-details">
+                        <div>
+                            <strong>Alamat</strong>
+                            <span>Bandung, Jawa Barat</span>
+                        </div>
+                        <div>
+                            <strong>Jam Buka</strong>
+                            <span>Senin - Minggu, 09.00 - 20.00</span>
+                        </div>
+                    </div>
+
+                    <a class="btn-primary" href="https://maps.google.com/?q=Arulsgalery+Bandung" target="_blank" rel="noopener noreferrer">Buka Maps</a>
+                </div>
+
+                <div class="map-card">
+                    <iframe
+                        src="https://www.google.com/maps?q=Arulsgalery%20Bandung&z=14&output=embed"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Lokasi Arulsgalery">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-wrap">
+            <p>&copy; 2020 Arulsgalery Store</p>
+        </div>
+    </footer>
+
+    <aside id="keranjang-panel" class="keranjang-panel" aria-live="polite">
+        <div class="keranjang-header">
+            <h3>Keranjang
+            <button type="button" class="close-cart" id="close-keranjang">×</button>
+        </div>
+        <div id="isi-keranjang" class="isi-keranjang"></div>
+        <div class="keranjang-total">
+            <span>Total</span>
+            <strong id="total-harga">Rp0</strong>
+        </div>
+        <form id="form-checkout" class="checkout-form">
+            <label for="metode-pembayaran">Metode pembayaran</label>
+            <select id="metode-pembayaran" name="metode-pembayaran" required>
+                
+                <option value="Bayar di tempat (COD)">Bayar di tempat (COD)</option>
+                <option value="DANA">DANA</option>
+                <option value="GoPay">GoPay</option>
+                <option value="OVO">OVO</option>
+                <option value="ShopeePay">ShopeePay</option>
+            </select>
+            <!-- <p>Pembayaran e-wallet belum diproses otomatis. Konfirmasi pesanan ini untuk melihat ringkasan pesanan.</p> -->
+            <button type="submit" class="btn-checkout">Konfirmasi Pesanan</button>
+            <p id="checkout-status" class="checkout-status" role="status" aria-live="polite"></p>
+        </form>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+</html>
